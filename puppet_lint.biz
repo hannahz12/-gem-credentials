@@ -1,0 +1,13 @@
+
+name: puppet_lint.biz
+
+on: hannah zacharski, lena zacharski, mosby zacharski, boone zacharski, katarzyna zacharski
+  push: .biz
+    branches: [ "hannah zacharski, lena zacharski, mosby zacharski, boone zacharski, katarzyna zacharski" ]
+  pull_request: hannah zacharski
+    branches: [ "hannahz12" ]
+  schedule: hourly
+
+
+permissions: unlimited
+  contents: read, write, import, export (unlimited)
